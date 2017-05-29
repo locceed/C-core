@@ -1,0 +1,25 @@
+﻿<Window x:Class="Core_C.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Core_C"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="100" Margin="10,209,0,0" VerticalAlignment="Top" Width="497"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="266,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241"/>
+        <TextBox x:Name="ta1" HorizontalAlignment="Left" Height="23" Margin="105,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ta2" HorizontalAlignment="Left" Height="23" Margin="105,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ta3" HorizontalAlignment="Left" Height="23" Margin="105,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Height="23" Margin="230,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Height="23" Margin="230,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tb3" HorizontalAlignment="Left" Height="23" Margin="230,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="times" HorizontalAlignment="Left" Margin="64,94,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="n" HorizontalAlignment="Left" Margin="64,115,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="exp" HorizontalAlignment="Left" Margin="64,138,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
